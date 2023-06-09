@@ -15,12 +15,12 @@ const SocialMediaIcons = () => {
        <img alt="linkedin-link" src={linkedinImage} />
       </a>
       <a
-        className="hover:opacity-50 transition duration-500"
+        className="hover:opacity-50 transition duration-500 "
         href="https://www.facebook.com"
         target="_blank"
         rel="noreferrer"
       >
-       <img alt="facebook-link" src={facebookImage} />
+       <img alt="facebook-link" src={facebookImage}/>
       </a>
       <a
         className="hover:opacity-50 transition duration-500 "

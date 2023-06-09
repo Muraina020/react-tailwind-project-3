@@ -67,7 +67,7 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }) => {
 
         {/* MOBILE MENU POPUP */}
         {!isDesktop && isMenuToggled && (
-          <div className="fixed right-[10px] bottom-0 h-[70%] bg-blue w-[200px] top-[15px]">
+          <div className="fixed right-[10px] bottom-0 h-[80%] bg-blue w-[200px] top-[15px]">
             {/* CLOSE ICON */}
             <div className="flex justify-end p-10">
               <button onClick={() => setIsMenuToggled(!isMenuToggled)}>
